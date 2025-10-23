@@ -1,72 +1,94 @@
-# 🔐 Password Manager - Built From Scratch
+# 🔐 RawVault – Secure Password Manager
 
 ![Web Development](https://img.shields.io/badge/Web%20Development-🌐-blue) ![Security](https://img.shields.io/badge/Security-🔒-green) ![Full Stack](https://img.shields.io/badge/Full%20Stack-💻-orange)
 
-> A simple, functional **Password Manager** built with modern web technologies. Focused on **security, usability, and simplicity**.
+> **RawVault** is a modern, secure, and user-friendly password manager built with a focus on simplicity and robust encryption. Designed to help you manage your passwords safely and efficiently.
 
-🔗 **Live Demo / Project Link:** [Check it out here]((https://rawvault.vercel.app/))
+🔗 **Live Demo / Project Link:** [https://rawvault.vercel.app/](https://rawvault.vercel.app/)
 
 ---
 
 ## 🚀 Project Overview
 
-This project is designed to create a **practical tool** that addresses a real-world problem: securely managing and storing passwords. The aim was to balance simplicity with functionality — nothing fancy, just what’s needed to get the job done. Users can store passwords safely while interacting with a clean, intuitive UI.
+RawVault provides a seamless experience for storing and managing passwords. With a clean interface and strong security measures, it ensures sensitive information remains protected. The goal is to balance usability with high-end security for end-users.
 
 ---
 
-## 📝 Key Learnings
+## 🛠️ Features
 
-Through building this project, I learned a lot about:
-
-* **Security:** Properly handling sensitive information and implementing encryption 🔒
-* **UI/UX:** Designing interfaces that are simple yet effective for real users 🎨
-* **Database Design:** Structuring a database to store and retrieve sensitive information efficiently 🗄️
-* **Full-Stack Development:** Connecting frontend and backend seamlessly
-* **Error Handling & Validation:** Ensuring user data is safe and the app is resilient
-
----
-
-## 💡 Features
-
-* Add, edit, and delete password entries
-* Secure storage using encryption techniques
-* Minimal, clean, and user-friendly interface
-* End-to-end **full-stack implementation** (frontend + backend)
-* Search and filter functionality for saved passwords
-* Responsive design for desktop and mobile devices
-* Error handling and input validation for safe data entry
+* Secure password storage with industry-standard encryption 🔒
+* User login and registration for personalized access 👤
+* Responsive design for desktop and mobile devices 📱💻
+* Built-in password generator for strong and unique passwords ✨
+* One-click copy functionality for quick access 📋
+* Add, edit, and delete password entries efficiently
+* Search and filter saved passwords easily
 
 ---
 
-## 🛠️ Technology Stack
+## 🧠 Tech Stack
 
-* **Frontend:** React, Tailwind CSS, Next.js
+* **Frontend:** React.js, Tailwind CSS, Next.js
 * **Backend:** Node.js, Express.js
-* **Database:** MongoDB / PostgreSQL
-* **Security:** Encryption libraries (bcrypt, crypto), secure storage practices
-* **Authentication:** NextAuth.js / Custom auth flow (planned for next update)
+* **Database:** MongoDB
+* **Authentication & Security:** bcrypt, secure storage practices
+* **Deployment:** Vercel
+
+---
+
+## 🔒 Security Measures
+
+* Passwords are encrypted before storage using **bcrypt**
+* Secure login and registration flows
+* Sensitive data is never stored in plaintext
+* Proper validation and error handling throughout the application
+
+---
+
+## 📝 Setup Instructions
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/rawvault.git
+   ```
+2. Navigate to the project directory:
+
+   ```bash
+   cd rawvault
+   ```
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+4. Create a `.env` file and configure your MongoDB connection and necessary environment variables
+5. Start the application:
+
+   ```bash
+   npm start
+   ```
+6. Access the app at `http://localhost:3000`
 
 ---
 
 ## 🌟 Takeaways
 
-Building this Password Manager reinforced the importance of:
+Building RawVault reinforced the importance of:
 
-* Handling sensitive data with care
-* Building applications end-to-end to understand the full flow
-* Making trade-offs between simplicity and functionality
-* Learning by doing: solving real problems teaches far more than theory
-
-This project demonstrates how smaller, focused projects can **enhance practical skills** and prepare for more complex applications in the future.
+* Secure handling of sensitive user data
+* Full-stack application architecture and data flow
+* Combining simplicity with functionality for end-users
+* Learning practical problem-solving through real projects
 
 ---
 
 ## 📌 Feedback & Collaboration
 
-If you’ve built a similar project or have insights about password management and security, I’d love to hear your thoughts! Let’s share ideas and improve together. 💬
+If you’ve built similar tools or have ideas on password management and security, I’d love to hear your thoughts! Let's collaborate and improve RawVault together. 💬
 
 ---
 
 ### Hashtags
 
-#webdevelopment #passwordmanager #coding #webdev #fullstack #security #encryption #learnbydoing
+#webdevelopment #passwordmanager #fullstack #security #encryption #coding #learnbydoing
